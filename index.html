@@ -24,7 +24,19 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+				<section>
+					<h2>Visualizing Your Journey With Chef</h2>
+					<p>
+						<small class="middle"><a href="https://micgo.net">Michael Goetz</a> / <img class="unstyled" style="width:5%;vertical-align:middle" src="images/email.png" /><a href="mailto:mpgoetz@chef.io">mpgoetz@chef.io</a> / <img class="unstyled" style="width:5%;vertical-align:middle" src="images/twitter.png" /><a href="http://twitter.com/michaelpgoetz">@michaelpgoetz</a></small>
+					</p>
+				</section>
 				<section data-markdown="slides.md"
+								 data-separator="^\n\n\n"
+								 data-separator-vertical="^\n\n"
+								 data-separator-notes="^Note:"
+								 data-charset="iso-8859-15">
+				</section>
+				<section data-markdown="dojo/dojo-intro.md"
 								 data-separator="^\n\n\n"
 								 data-separator-vertical="^\n\n"
 								 data-separator-notes="^Note:"
@@ -42,13 +54,50 @@
 				controls: false,
 				progress: false,
 				history: true,
+				chart: {
+					defaults: {
+						global: {
+							fontColor: "#FFF",
+							fontSize: 20,
+							fontFamily: "'Arial'",
+							title: { fontColor: "#FFF" },
+							legend: {
+								labels: {
+									padding: 20,
+									fontColor: "#FFF"
+								}
+							}
+						},
+						scale: {
+							gridLines: { color: "#FFF", zeroLineColor: "#FFF" },
+							ticks: {
+								display: false
+							},
+							pointLabels: {
+								fontSize: 20,
+								fontColor: "#FFF"
+							}
+						}
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ]},
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]},
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: {
+						backgroundColor: ["rgba(241,139,33,0.2)", "rgba(107,178,226,0.2)"],
+						borderColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"],
+						pointBackgroundColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"],
+						pointBorderColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"]
+					}
+				},
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' }
 				]
 			});
 		</script>
