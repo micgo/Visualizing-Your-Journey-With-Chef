@@ -15,9 +15,9 @@
 #
 -->
 
-<!-- .slide: data-background="images/shaolin-masters.jpg" -->
-### Chef DOJO
-#### DevOps Journey Assessment
+<!-- .slide: data-background="images/shaolin-masters.png" -->
+<h3 style="color:white;background:#333" > Chef DOJO </h3>
+<h4 style="color:white;background:#333" > DevOps Journey Assessment </h4>
 
 
 Note:
@@ -26,17 +26,17 @@ This is a speaker note for the first slide
 
 
 ### Agenda
-1. The DevOps Journey
-1. DOJO Mechanics
-1. Working with People
-1. Working with Machines
+* The DevOps Journey
+* DOJO Mechanics
+* Working with People
+* Working with Machines
 
 
 
 ### The DevOps Journey
-1. DevOps Journey Map
-1. The Journey Phases
-1. What You Get When We Are Done
+* DevOps Journey Map
+* The Journey Phases
+* What You Get When We Are Done
 
 
 
@@ -47,17 +47,18 @@ This is a speaker note for the first slide
 
 
 ### The Journey Phases
-+ Multiple phases can and should be worked in parallel
-+ The earlier phases evolve significantly as the journey progresses
-+ It's natural to skip or inconsistently implement certain phases, so be aware of problems this causes in the later phases
+* Multiple phases can and should be worked in parallel
+* The earlier phases evolve significantly as the journey progresses
+* It's natural to skip or inconsistently implement certain phases, so be aware of problems this causes in the later phases
+
 
 Note:
 As you make progress in advanced areas, such as full-stack-automation, the scope of early phases, such as testing, expands
-In order to show value quickly, you will sacrifice compeleteness. This is techical debt. Be aware that as you try to improve your system, you will need to go back and clean up. Revisiting is good!
+In order to show value quickly, you will sacrifice compeleteness. This is technical debt. Be aware that as you try to improve your system, you will need to go back and clean up. Revisiting is good!
 
 
 
-#### What You Get When We Are Done
+### What You Get When We Are Done
 <!-- Show a completed DOJO sample spider graph -->
 <canvas data-chart="radar" data-chart-src="data/chartExample.csv" width="500" height="300" />
 
@@ -65,11 +66,11 @@ In order to show value quickly, you will sacrifice compeleteness. This is techic
 
 ### DOJO Mechanics
 
-1. Safety
-2. Scoping
-3. Goal Setting
-4. Our Scale
-5. Scoring
+* Safety
+* Scoping
+* Goal Setting
+* Our Scale
+* Scoring
 
 
 
@@ -87,15 +88,19 @@ Make sure to get explicit support for this from the most senior person in the DO
 
 We focus on a service and the people who provide it.
 
-+ Development
-+ Operations
-+ Management
-+ Architecture
-+ Testing
-+ Security
-+ Compliance
-+ Release
-+ Support
+<div class='left' style='float:left;width:48%;text-align:left'>
+<li/>Development
+<li/>Operations
+<li/>Management
+<li/>Architecture
+<li/>Testing
+</div>    
+<div class='right' style='float:right;width:48%;text-align:left'>
+<li/>Security
+<li/>Compliance
+<li/>Release
+<li/>Support
+</div>
 
 
 
@@ -107,11 +112,11 @@ In this exercise, we want to assess your current state. After you have that, we 
 
 ### Our Scale
 
-+ 0 | Not planned
-+ 1 | Planned
-+ 2 | Inconsistently implemented in some areas
-+ 3 | Consistently implemented in some areas
-+ 4 | Consistently implemented throughout the organization
+* 0 | Not planned
+* 1 | Planned
+* 2 | Inconsistently implemented in some areas
+* 3 | Consistently implemented in some areas
+* 4 | Consistently implemented throughout the organization
 
 
 
@@ -119,7 +124,7 @@ In this exercise, we want to assess your current state. After you have that, we 
 
 The sections of the DOJO each have a few statements. For each section, we will follow this process:
 
-1. Individuals score each statement for current state
-2. Group shares scores
-3. Group discusses differing scores
-5. Repeat for goals
+* Individuals score each statement for current state
+* Group shares scores
+* Group discusses differing scores
+* Repeat for goals
