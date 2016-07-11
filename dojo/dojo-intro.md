@@ -19,7 +19,6 @@
 <h3 style="color:white;background:#333" > Chef DOJO </h3>
 <h4 style="color:white;background:#333" > DevOps Journey Assessment </h4>
 
-
 Note:
 This is a speaker note for the first slide
 
@@ -39,11 +38,9 @@ This is a speaker note for the first slide
 * What You Get When We Are Done
 
 
-
 ### DevOps Journey Map
 <!-- Insert revised Journey Map picture -->
 ![alt text](images/journey_map.png)
-
 
 
 ### The Journey Phases
@@ -51,11 +48,9 @@ This is a speaker note for the first slide
 * The earlier phases evolve significantly as the journey progresses
 * It's natural to skip or inconsistently implement certain phases, so be aware of problems this causes in the later phases
 
-
 Note:
 As you make progress in advanced areas, such as full-stack-automation, the scope of early phases, such as testing, expands
 In order to show value quickly, you will sacrifice compeleteness. This is technical debt. Be aware that as you try to improve your system, you will need to go back and clean up. Revisiting is good!
-
 
 
 ### What You Get When We Are Done
@@ -73,35 +68,25 @@ In order to show value quickly, you will sacrifice compeleteness. This is techni
 * Scoring
 
 
-
 ### Safety
 
 This is a safe space. All of you should feel free to share openly and honestly without repercussions.
 
-
 Note:
 Make sure to get explicit support for this from the most senior person in the DOJO.
-
 
 
 ### Scoping
 
 We focus on a service and the people who provide it.
 
-<div class='left' style='float:left;width:48%;text-align:left'>
-<li/>Development
-<li/>Operations
-<li/>Management
-<li/>Architecture
-<li/>Testing
-</div>    
-<div class='right' style='float:right;width:48%;text-align:left'>
-<li/>Security
-<li/>Compliance
-<li/>Release
-<li/>Support
-</div>
-
+| | |
+|-----------|----------|
+| Development | Operations |
+| Management | Architecture |
+| Testing | Security |
+| Compliance | Release |
+| Support | |
 
 
 ### Goal Setting
@@ -109,15 +94,15 @@ We focus on a service and the people who provide it.
 In this exercise, we want to assess your current state. After you have that, we want you to agree to a six month goal.
 
 
-
 ### Our Scale
 
-* 0 | Not planned
-* 1 | Planned
-* 2 | Inconsistently implemented in some areas
-* 3 | Consistently implemented in some areas
-* 4 | Consistently implemented throughout the organization
-
+| Score | Description |
+|:-----:|:--------|
+| 0     | Not planned |
+| 1     | Planned |
+| 2     | Inconsistently implemented in some areas |
+| 3     | Consistently implemented in some areas |
+| 4     | Consistently implemented throughout the organization |
 
 
 ### Scoring
